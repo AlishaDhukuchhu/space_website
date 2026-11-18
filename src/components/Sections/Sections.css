@@ -1,0 +1,71 @@
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 48px;
+  color: var(--color-charcoal);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* Pinned Scroll specific styles */
+.pin-container {
+  height: 250vh; /* Determines how long the scroll effect lasts */
+  position: relative;
+}
+
+.sticky-container {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--color-ivory); /* Hide background elements scrolling underneath */
+}
+
+.new-arrivals-section {
+  padding: 0; /* Override default section padding */
+  width: 100%;
+}
+
+.horizontal-track-wrapper {
+  width: 100%;
+  overflow: hidden; /* Hide the overflow, translation handles the scroll */
+}
+
+.horizontal-track {
+  display: flex;
+  gap: 40px;
+  padding-left: 5%;
+  width: max-content;
+  will-change: transform;
+}
+
+.scroll-item {
+  width: 350px;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}

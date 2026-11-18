@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900" role="img" aria-labelledby="title desc">
+  <title id="title">Lumera User Journey Flowchart</title>
+  <desc id="desc">A flowchart showing the Lumera ecommerce journey from first impression through purchase path.</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbf7f1; }
+      .title { fill: #1f2328; font: 700 52px Georgia, serif; letter-spacing: 2px; }
+      .subtitle { fill: #6b5a49; font: 400 20px Inter, Arial, sans-serif; }
+      .node { fill: #fffdf9; stroke: #d5b66f; stroke-width: 2; }
+      .node-alt { fill: #fff8f3; stroke: #c99f8a; stroke-width: 2; }
+      .node-title { fill: #1f2328; font: 700 24px Inter, Arial, sans-serif; }
+      .node-copy { fill: #635343; font: 400 17px Inter, Arial, sans-serif; }
+      .label { fill: #7a5b20; font: 700 15px Inter, Arial, sans-serif; letter-spacing: 1px; }
+      .arrow { fill: none; stroke: #b08a34; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .soft { fill: #efe0d9; }
+      .gold { fill: #b08a34; }
+      .line { stroke: #e1c78a; stroke-width: 1; }
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#7a5b20" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#b08a34"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1800" height="900"/>
+  <circle class="soft" cx="155" cy="130" r="95" opacity=".45"/>
+  <circle class="soft" cx="1640" cy="740" r="150" opacity=".45"/>
+  <path class="line" d="M220 172 H1580"/>
+  <text class="title" x="900" y="115" text-anchor="middle">LUMERA USER JOURNEY</text>
+  <text class="subtitle" x="900" y="154" text-anchor="middle">From emotional discovery to confident jewelry purchase</text>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="70" y="250" width="230" height="150" rx="18"/>
+    <circle class="soft" cx="185" cy="230" r="42"/>
+    <text class="gold" x="185" y="241" text-anchor="middle" font-size="34" font-family="Arial">1</text>
+    <text class="node-title" x="185" y="306" text-anchor="middle">First Impression</text>
+    <text class="node-copy" x="185" y="344" text-anchor="middle">Hero + CTAs</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="360" y="250" width="230" height="150" rx="18"/>
+    <circle class="soft" cx="475" cy="230" r="42"/>
+    <text class="gold" x="475" y="241" text-anchor="middle" font-size="34" font-family="Arial">2</text>
+    <text class="node-title" x="475" y="306" text-anchor="middle">Browse Categories</text>
+    <text class="node-copy" x="475" y="340" text-anchor="middle">Rings / Necklaces</text>
+    <text class="node-copy" x="475" y="365" text-anchor="middle">Earrings / Bracelets</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="650" y="250" width="230" height="150" rx="18"/>
+    <circle class="soft" cx="765" cy="230" r="42"/>
+    <text class="gold" x="765" y="241" text-anchor="middle" font-size="34" font-family="Arial">3</text>
+    <text class="node-title" x="765" y="306" text-anchor="middle">New Arrivals</text>
+    <text class="node-copy" x="765" y="340" text-anchor="middle">Product cards</text>
+    <text class="node-copy" x="765" y="365" text-anchor="middle">Wishlist + Quick Add</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="940" y="250" width="230" height="150" rx="18"/>
+    <circle class="soft" cx="1055" cy="230" r="42"/>
+    <text class="gold" x="1055" y="241" text-anchor="middle" font-size="34" font-family="Arial">4</text>
+    <text class="node-title" x="1055" y="306" text-anchor="middle">Brand Story</text>
+    <text class="node-copy" x="1055" y="344" text-anchor="middle">Designed With Intention</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="1230" y="250" width="230" height="150" rx="18"/>
+    <circle class="soft" cx="1345" cy="230" r="42"/>
+    <text class="gold" x="1345" y="241" text-anchor="middle" font-size="34" font-family="Arial">5</text>
+    <text class="node-title" x="1345" y="306" text-anchor="middle">Featured Collection</text>
+    <text class="node-copy" x="1345" y="344" text-anchor="middle">Curated collection</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="1520" y="250" width="230" height="150" rx="18"/>
+    <circle class="soft" cx="1635" cy="230" r="42"/>
+    <text class="gold" x="1635" y="241" text-anchor="middle" font-size="34" font-family="Arial">6</text>
+    <text class="node-title" x="1635" y="306" text-anchor="middle">Style Quiz</text>
+    <text class="node-copy" x="1635" y="340" text-anchor="middle">Personalized</text>
+    <text class="node-copy" x="1635" y="365" text-anchor="middle">recommendation</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node-alt" x="940" y="575" width="230" height="150" rx="18"/>
+    <circle class="soft" cx="1055" cy="555" r="42"/>
+    <text class="gold" x="1055" y="566" text-anchor="middle" font-size="34" font-family="Arial">7</text>
+    <text class="node-title" x="1055" y="631" text-anchor="middle">Social Proof</text>
+    <text class="node-copy" x="1055" y="669" text-anchor="middle">Wear It Your Way</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node-alt" x="650" y="575" width="230" height="150" rx="18"/>
+    <circle class="soft" cx="765" cy="555" r="42"/>
+    <text class="gold" x="765" y="566" text-anchor="middle" font-size="34" font-family="Arial">8</text>
+    <text class="node-title" x="765" y="631" text-anchor="middle">Footer Conversion</text>
+    <text class="node-copy" x="765" y="665" text-anchor="middle">Newsletter + support</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node-alt" x="360" y="575" width="230" height="150" rx="18"/>
+    <circle class="soft" cx="475" cy="555" r="42"/>
+    <text class="gold" x="475" y="566" text-anchor="middle" font-size="34" font-family="Arial">9</text>
+    <text class="node-title" x="475" y="631" text-anchor="middle">Purchase Path</text>
+    <text class="node-copy" x="475" y="665" text-anchor="middle">Product detail</text>
+    <text class="node-copy" x="475" y="690" text-anchor="middle">Cart / Checkout</text>
+  </g>
+
+  <path class="arrow" marker-end="url(#arrowhead)" d="M300 325 H350"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M590 325 H640"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M880 325 H930"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M1170 325 H1220"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M1460 325 H1510"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M1635 400 C1635 500 1190 500 1090 570"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M940 650 H890"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M650 650 H600"/>
+
+  <path class="arrow" opacity=".55" marker-end="url(#arrowhead)" d="M475 400 C475 470 710 485 735 570"/>
+  <text class="label" x="615" y="487" text-anchor="middle">undecided shoppers loop into quiz/support</text>
+
+  <path class="arrow" opacity=".55" marker-end="url(#arrowhead)" d="M765 400 C760 500 515 470 490 570"/>
+  <text class="label" x="625" y="524" text-anchor="middle">high intent moves toward purchase</text>
+
+  <text class="subtitle" x="900" y="820" text-anchor="middle">Recommended next build: wire CTAs, add wishlist/cart state, create product detail, then checkout.</text>
+</svg>
